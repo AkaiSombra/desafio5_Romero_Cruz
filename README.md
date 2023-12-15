@@ -2,7 +2,7 @@
 
 - Create Register view
 
-  - ~~ Create models for users ~~
+  - ~~Create models for users~~
     - name: required
     - lastName: required
     - email: Unique, required, index
@@ -10,17 +10,17 @@
     - password: required
     - age: required, index
     - role: default user
-  - ~~ When registered finished redirect to login
+  - ~~When registered finished redirect to login~~
 
 - Login
 
-  - ~~Add button to redirect to Register
-  - ~~ When already login redirect to Products
+  - ~~Add button to redirect to Register~~
+  - ~~When already login redirect to Products~~
 
 - Products
 
-  - ~~Welcome message with user data
-  - ~~Add button to logout
+  - ~~Welcome message with user data~~
+  - ~~Add button to logout~~
 
 All finished
 
