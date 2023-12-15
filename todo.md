@@ -1,18 +1,18 @@
 ### To do list
 
-- Create Register view
+<summary> Create Register view </summary>
 
-  - Create models for users
-    - email: Unique, required, index
-    - name: required
-    - lastName: required
-    - nickname: Unique, required, Index
-    - age: required, index
-    - password: required
-    - role: default user
-  - When registered finished redirect to login
+- Create models for users
+  - email: Unique, required, index
+  - name: required
+  - lastName: required
+  - nickname: Unique, required, Index
+  - age: required, index
+  - password: required
+  - role: default user
+- When registered finished redirect to login
 
-- [x] Login
+- Login
 
   - Add button to redirect to Register
   - When already login redirect to Products
