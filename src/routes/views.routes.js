@@ -5,7 +5,7 @@ const router = Router()
 
 router.get('/products', async (req, res) => {
     if(req.session.user){
-        res.render('productsViews', {})
+        res.render('productsViews', { user: req.session.user})
     } else {
         res.redirect('login')
     }
@@ -13,7 +13,7 @@ router.get('/products', async (req, res) => {
 
 router.get('/login', async (req, res) => {
     if (req.session.user){
-        res.redirect('/profile')
+        res.redirect('/products')
     } else {
         res.render('login', {})
     }

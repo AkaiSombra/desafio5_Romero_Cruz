@@ -7,14 +7,14 @@
 </style>
 
 
-<div class="login-container">
-    <h1 style="color: #fff;"><b>Videogame Store</b></h1>
+<div class="login-container" style="background-color: #2f3035; padding: 30px;">
+    <h1 style="color: #fff; text-align: center; padding-bottom: 15px;"><b>Videogame Store</b></h1>
     <h2 style="color: #fff;">User Login</h2>
 
     <form action="/api/sessions/login" method="post" style="margin-top: 32px;">
         <div class="input-group" style="width: 300px; margin-bottom: 32px;">
             <span class="input-group-text" id="group1"><i class="fa-solid fa-user"></i></span>
-            <input type="text" name="username" class="form-control" placeholder="Username" required="required">
+            <input type="text" name="username" class="form-control" placeholder="Username or Email" required="required">
         </div>
 
         <div class="input-group" style="width: 300px; margin-bottom: 32px;">
@@ -23,5 +23,12 @@
         </div>
 
         <button type="submit" class="btn btn-success">Ingresar</button>
+        <button type="button" class="btn btn-success" onclick="toRegister()">Register</button>
     </form>
 </div>
+
+<script>
+    function toRegister() {
+    window.location.href = "http://localhost:8080/register";
+}
+</script>

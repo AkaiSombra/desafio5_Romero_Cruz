@@ -1,4 +1,3 @@
-
 import mongoose, { mongo } from 'mongoose'
 import mongoosePaginate from 'mongoose-paginate-v2'
 
