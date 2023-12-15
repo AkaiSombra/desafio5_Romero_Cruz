@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> You can add new users without problem and the ADMIN user:Sombra password: 123
+
 ### To do list
 
 - Create Register view
@@ -23,6 +26,3 @@
   - ~~Add button to logout~~
 
 All finished
-
-> [!IMPORTANT]
-> You can add new users without problem and the ADMIN user is Sombra 123
