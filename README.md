@@ -2,7 +2,7 @@
 
 - Create Register view
 
-  - ~~ Create models for users
+  - ~~ Create models for users ~~
     - name: required
     - lastName: required
     - email: Unique, required, index
@@ -24,5 +24,5 @@
 
 All finished
 
-> [!NOTE]
+> [!IMPORTANT]
 > You can add new users without problem and the ADMIN user is Sombra 123
