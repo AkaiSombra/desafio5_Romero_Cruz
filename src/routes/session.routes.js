@@ -20,9 +20,8 @@ router.put('/register', async (req, res) => {
 router.post('/login', async (req, res) => {
     try{
         const { username, password} = req.body
-        const user = { username: username, password: password}
 
-        const searchUserBaseData = await userModel.findOne({ username: user.username}).lean()
+        const searchUserBaseData = await userModel.findOne({ username: username}).lean()
 
         if (username === searchUserBaseData.username && password === searchUserBaseData.password){
             req.session.user = { username: username, role: searchUserBaseData.role}
